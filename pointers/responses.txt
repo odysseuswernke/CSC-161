@@ -1,0 +1,7 @@
+Pointers Lab: Written Responses
+-------------------------------
+Write your predictions and explanations for any non-coding exercises on the lab here.
+
+Prediction for 1: a: 1, b: 3,*c: 1,*d: 3
+Prediction for 2: a: 2, b: 5,*c: 2,*d: 2
+Prediction for 3: a: 4, b: 5,*c: 4,*d: 4, *e: 99, *f: 4, g: 99

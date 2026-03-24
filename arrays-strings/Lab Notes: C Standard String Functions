@@ -1,0 +1,11 @@
+C1:What do the strcpy and strncpy functions do? Explain any limits/requirements for the parameters to these functions, describe what the functions return, and give at least one scenario where you would use each of them. 
+
+Answer: 'strcpy' copies one string into another array and has form strcpy(destination_array, source_string). It returns a pointer to the destination array. We could use this function if we intend to change certain characters inside of a string without changing the original string. 'strncpy' copies a certain number of characters from a source string and pastes them into the destination array. It takes form strncpy(destination_array, source_string, number_of_chars). This would be good for the same purpose, but instead of making the same string in the array, it is partial.
+
+C2: What do the strcat and strncat functions do? Explain any limits/requirements for the parameters, describe what the functions return, and give at least one scenario where you would use each of them. As before, start with the manpages and then write some code to test the functions’ behavior.
+
+Answer: 'strcat' concatenates a string onto the terminating character on another string. It takes form strcat(first_string, second_string). It could be used to make sentences from different string variables. 'strncat' does the same, but it only concatenates n characters of the second string onto the first. It takes form strncat(first_string, second_string, n). It could be helpful for similar uses.
+
+C3: What do the strcmp and strncmp functions do? Explain any limits/requirements for the parameters, describe what the functions return, and give at least one scenario where you would use each of them. Again, you can read about these functions in the manpages.
+
+Answer: 'strcmp' compares two given strings one character at a time until it reaches a terminating kth character. It returns the value of the first string's kth character's lexicographical number minus the second string's kth lexicographical number. 'strncmp' does the same, except it compares the nth character of each string. Their forms are strcmp(first_string, second_string) and strncmp(first_string, second_string, k).
